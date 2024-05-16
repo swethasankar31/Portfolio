@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfilo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/be6a52857e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/name.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfilo</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                   
+                </ul>
+                  
+            </nav>
+             <div class="header-text">
+                <p>Frontend developer</p>
+                <h1>Hi,I'm <br><span>SWETHA</span></h1>
+            </div>
+        </div>  
+      </div>
+      <!---------------------about----------------------------->
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            
+            <div class="about-col-1" >
+                <img src="images/user.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>Enthusiastic new comer to the world of frontend development with a solid knowledge in <b>HTML,CSS and JAVASCRIPT</b> ready to dive into the projects.
+                </p>
+                <div class="tabtitles">
+                    <p class="tablinks activelink" onclick="opentab('Skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tabcontents activetab" id="Skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Desiging web</li>
+                    </ul>
+                </div>
+                <div  class="tabcontents" id="Education">
+                    <ul>
+                        <li><span>2020-2024</span><br>B.Tech Information Technology at AruaniEngineering College</li>
+                        <li><span>2019-2020</span><br>HSC at Sri V.D.S Jain Higher Secondary School</li>
+                        <li><span>2017-2018</span><br>SSLC at Sri V.D.S Jain Higher Secondary School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!---services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="serviceslist">
+                <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web design</h2>
+                        <p>Web design is the process of planning,conceptualizing,and implementing the plan for desigining a responsive websites.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                        <i class="fa-solid fa-cloud"></i>
+                        <h2>Weather Forecasting App</h2>
+                        <p>This project mointor the weather status of certain city by using API.This application is designed user friendly and easily applied in python program.</p>
+                        <a href="#">Learn more</a>
+               </div>
+            </div>
+        </div>
+    </div>
+
+ <!----portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Project Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/student.jpg">
+                    <div class="layer">
+                        <h3>Records of Student Mangement System using Google Spreadsheet</h3>
+                        <p>This project allows the administrator of any organization to edit & find out personal details of student.It allows the student to store the data profile which contains name,date of birth,roll no.,academic marks,contact details,etc.the main purpose of this project is to store,manage and track the related data on secured envirnoment.</p>
+                   
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/water.jpg">
+                    <div class="layer">
+                        <h3>Assessing the Safety of Municipal Drinking water</h3>
+                        <p>This project invloves monitoring various parmeter to ensure that the water meets the refulatory standards in a safe for domestic purpose.It get analysising of water samples which contain regular standard which are get monitoring continously.</p>
+                    
+                </div>
+                </div>
+                <div class="work">
+                    <img src="images/air.jpg">
+                    <div class="layer">
+                        <h3>Air Quality Prediction in Smart Cities using Regression Techiques </h3>
+                        <p>Air quality is predicated using R square value.R square determines the proportion of variance in the dependent variable of the system that can be explained in independent variable.It is statistical measure in the regression techinques</p>
+                    
+                </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+            <!-----contact-->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="subtitle">contact me</h1>
+                          <div class="contact-left">
+                           
+                            <p> <a><i class="fa-solid fa-envelope"></i><a href="mailto:swethasri3110@gmail.com"></a>swethasri3110@gmail.com</a></p>
+                            <p><i class="fas fa-phone-square-alt"></i>9751020440</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/swetha-sankar-834844264/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/swetha_at_31/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            </div>
+                            <a href="images/mycv.jpg" download  class="btn btn2">Download CV</a>
+                            <div class="contact-rigth">
+                                <form name="submit-to-google-sheet">
+                                    <input type="text" name="Name" placeholder="Your Name" required>
+                                    <input type="email" name="Email" placeholder="Your Email" required>
+                                    <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                                    <button type="submit" class="btn btn2">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyrigth">
+                        <p>Copyright @swetha<i class="fa-solid fa-heart"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tablinks");
+        var tabcontents=document.getElementsByClassName("tabcontents");
+        function opentab(tabname) {
+            for(tablink  of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.rigth="0";
+        }
+        function closemenu(){
+            sidemenu.style.rigth="-200px";
+        }
+
+    </script>
+    <script>
+  const scriptURL = '<https://script.google.com/macros/s/AKfycbzF-4EkPiWODAOX8qlTKXW9nLf9bUFmMVMj0OH0Pi7djB4wTGFuJbdGb_Z1_W1XdpoFqw/exec>'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
